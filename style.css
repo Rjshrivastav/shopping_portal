@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-family: 'Poppins', sans-serif;
+    
+}
+
+.desktop-nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    box-shadow: 20px 20px 60px #0000006d, inset -20px -20px 90px rgba(159, 181, 154, 0.365);
+    font-family: var(--font-family)
+    
+}
+
+.website-logo{
+    font-size: 60px;
+    color: black;
+}
+
+.website-logo span:nth-child(2){
+    text-decoration: underline;
+    background: -webkit-linear-gradient(rgb(182 29 156 / 52%), rgb(130 23 192) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(130 23 192);
+}
+
+.middle ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    }
+
+li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+
+/* main body */
+section{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+/* home section */
+.home{
+    background-image: url(assests/bg1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+.text{
+    padding: 150px;
+}
+
+.text h1{
+    background: -webkit-linear-gradient(rgb(182 29 156 / 52%), rgb(130 23 192) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 65px;
+}
+
+.text h1:nth-child(2){
+    margin-bottom: 20px;
+}
+
+.text button{
+    margin-top: 100px;
+    background-image: linear-gradient(to right,rgb(182 29 156), rgb(130 23 192) );
+    color: white;
+    width: 115px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 20px 20px 60px #0000006d, inset -20px -20px 90px rgba(159, 181, 154, 0);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image img{
+    width: auto;
+    height: auto;
+}
+
+.social-icon{
+    display: grid;
+}
+
+.social-icon img{
+    width: 50px;
+    height: 50px;
+}
