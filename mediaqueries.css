@@ -1,0 +1,136 @@
+@media screen and (max-width:900px) {
+
+    nav {
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .hamburger-nav {
+        display: flex;
+    }
+
+    .hamburger-icon {
+        display: flex;
+    }
+
+    .website-logo {
+        font-size: 48px;
+    }
+
+    .right {
+        font-size: 7px;
+    }
+
+    #home {
+        display: grid;
+        grid-template-areas: "image"
+            "text";
+    }
+
+    .text {
+        display: grid;
+        padding: 0;
+        grid-area: text;
+        justify-items: center;
+        margin: 10px;
+    }
+
+
+    .text h1 {
+        font-size: 50px;
+        background: -webkit-linear-gradient(rgba(63, 62, 63, 0.52), rgb(0, 0, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #000000bf;
+    }
+
+    .text button {
+        margin-top: 30px;
+    }
+
+    .image {
+        grid-area: image;
+        margin-top: 10px;
+    }
+
+    .image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .product-title {
+        font-size: 30px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+    }
+
+    #about {
+        position: relative;
+    }
+
+    .about-image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-text {
+        display: grid;
+        position: absolute;
+        justify-items: end;
+    }
+
+    .about-text p:first-child {
+        margin-top: -180px;
+        font-size: 40px;
+    }
+
+    .about-text p:nth-child(2) {
+        margin-top: -150px;
+        font-size: 75px;
+    }
+
+    .about-text p:nth-child(3) {
+        margin-top: -120px;
+        font-size: 150px;
+    }
+
+    .about-text p:nth-child(4) {
+        margin-top: 0px;
+        font-size: 40px;
+        color: rgba(143, 141, 141, 0.63);
+    }
+
+    .about-text p:nth-child(5) {
+        margin-top: 38px;
+        font-size: 70px;
+    }
+
+    .review-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+    }
+
+    .s-container {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .s-delivery,
+    .s-replace,
+    .s-support {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+}
